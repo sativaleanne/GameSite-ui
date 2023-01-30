@@ -1,0 +1,110 @@
+h2, p { margin-bottom: 2.4rem; }
+
+h1              {font: 700 2.0rem/1.2 "Open Sans"; color: #000000;}
+h2              {font: 400 1.5rem/1.2 "Open Sans"; color: hsl(000, 0%, 0);}
+
+
+@media (max-width: 8.5in) {:root {font-size: 18px;}}
+@media (max-width: 5.0in) {:root {font-size: 16px;}}
+
+body {
+    background-color: #84a3b5;
+  }
+  
+  .topnav {
+    overflow: hidden;
+    background-color: #5d7c8b;
+  }
+  
+  .topnav a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+  .topnav a:hover {
+    background-color: #111;
+  }
+  
+  .topnav a.active {
+    background-color: #666;
+    color: white;
+  }
+  
+  .topnav .search-container {
+    float: right;
+  }
+  
+  .topnav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+  }
+  
+  .topnav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+  }
+  
+  .topnav .search-container button:hover {
+    background: #ccc;
+  }
+  
+  
+  #scrollbox{
+    position:relative;
+    width: 50%;
+    height: 25%;
+    overflow: auto;
+    border: solid black 2px;
+  }
+  
+ form {
+     background-color: #ccc;
+     width: 300px;
+     height: 44 px;
+     border-radius: 5px;
+     display: flex;
+     flex-direction: row;
+     align-items: center;
+ }
+
+input {
+    all: unset;
+    font: 16px system-ui;
+    color: #111;
+    height: 100%;
+    width: 100%;
+    padding: 6px 10px;
+}
+
+::placeholder {
+    color: #111;
+    opacity: 0.7;
+}
+
+button {
+    all: unset;
+    cursor: pointer;
+    width: 44px;
+    height: 44px;
+}
+
+svg {
+    color: #111;
+    fill: currentColor;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+}
